@@ -1,0 +1,167 @@
+{
+  "id": "call_to_action",
+  "type": "SharedSlice",
+  "name": "CallToAction",
+  "description": "CallToAction",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading1,heading2,heading3,heading4,heading5,heading6"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "button_label": {
+          "type": "Text",
+          "config": {
+            "label": "Button label",
+            "placeholder": ""
+          }
+        },
+        "button_link": {
+          "type": "Link",
+          "config": {
+            "label": "Button link",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "select": null
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "alignLeft",
+      "name": "Align left",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading1,heading2,heading3,heading4,heading5,heading6"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "button_label": {
+          "type": "Text",
+          "config": {
+            "label": "Button label",
+            "placeholder": ""
+          }
+        },
+        "button_link": {
+          "type": "Link",
+          "config": {
+            "label": "Button link",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "select": null
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "alignRight",
+      "name": "Align right",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading1,heading2,heading3,heading4,heading5,heading6"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "background_image": {
+          "type": "Image",
+          "config": {
+            "label": "Background image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "button_label": {
+          "type": "Text",
+          "config": {
+            "label": "Button label",
+            "placeholder": ""
+          }
+        },
+        "button_link": {
+          "type": "Link",
+          "config": {
+            "label": "Button link",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "select": null
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
